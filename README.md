@@ -14,15 +14,28 @@ combine with `sherdog`, and snag whatever previous MMA fight history
 outside of ufc events. Then join on the fight odds by UFC event number,
 fighter name and birthday.
 
-<u>UFCstats: (fighter page)</u> - Height - Reach - Stance - Birthday
+<u>UFCstats: (fighter page)</u> 
+- Height 
+- Reach 
+- Stance 
+- Birthday
 
-<u>UFCstats: (event page)</u> - Knockdown - Strikes - Takedown -
-Submission - Weight class - Win method - Win round - Final round time
+<u>UFCstats: (event page)</u> 
+- Knockdown 
+- Strikes 
+- Takedown 
+- Submission 
+- Weight class 
+- Win method 
+- Win round 
+- Final round time
 
-<u>Sherdog:</u> - HISTIORICAL wins/losses by type (useful for
+<u>Sherdog:</u> 
+- HISTIORICAL wins/losses by type (useful for
 recalculating MMA wins, ufc wins)
 
-<u>bestfightodds:</u> - Fight odds for events
+<u>bestfightodds:</u> 
+- Fight odds for events
 
 <br>
 
