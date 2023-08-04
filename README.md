@@ -40,22 +40,23 @@ recalculating MMA wins, ufc wins)
 <br>
 
 With this data joined together, it should be trivial to engineer some
-solid variables for models. Some Ideas that come to mind are: - age
-(from birthday, recalculated as of event date) - net win/net loss by
-method (ex: \# of submission wins - \# of submission loss, potentially
-weighted by experience) - some sort of variable to get at fight style
-(wrestling, jujitsu, etc.) - win streak, loss streak - title bout wins,
-current title holder indicator? - a cool one would be club ranking or
-club performance, but with only a handful of serious fighters in a given
-club, not sure if that will be good - Years in the UFC, Years since
-first professional fight
+solid variables for models. Some Ideas that come to mind are: 
+- age (from birthday, recalculated as of event date) 
+- net win/net loss by method (ex: # of submission wins - # of submission loss, potentially
+weighted by experience) 
+- some sort of variable to get at fight style (wrestling, jujitsu, etc.) 
+- win streak, loss streak 
+- title bout wins, current title holder indicator? 
+- maybe club ranking or club performance, but with only a handful of serious fighters in a given
+club, not sure if that will be good 
+- Years in the UFC, years since first professional fight
 
 undecided on whether to take the approach of appending new data as of a
 snapshot with a separate scraper for updates, or if behind on events,
 just run the whole data pull and break out the current event data to do
 some live testing. There are some pros and cons to both:
 
-If I set up the feature engineering to be modular enough, it would be
+If the variable engineering is modular enough, it would be
 quite nice to pull (or enter manually if a site breaks / odds are
 incorrect) the fighters names / birthdays / odds and have the variables
 good to go
