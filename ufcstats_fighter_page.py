@@ -37,7 +37,6 @@ for letter in range(ord('a'), ord('z') + 1):
         element = wait.until(EC.presence_of_element_located((By.XPATH, the_path)))
         element.click()
 
-
         name = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "b-content__title-highlight")))
         height = driver.find_element(By.XPATH, "/html/body/section/div/div/div[1]/ul/li[1]")
         record = driver.find_element(By.XPATH, "/html/body/section/div/h2/span[2]")
