@@ -88,12 +88,3 @@ good to go
     some joins and loose some data. This is especially important if I'm
     unable to capture data when I attempt to feature engineer an
     experience field or something similar.
-
-### Modeling:
-
--   Probably use a Binomial GLM, predicting just W/L and see how
-    predictive the variables are. If they prove to be pretty decent,
-    I'll probably try out a couple more types of unsupervised models and
-    compare performance, using the GLM as a baseline.
--   If historical vegas odds are accurate enough, might be worth
-    exploring prop bets and testing performance.
